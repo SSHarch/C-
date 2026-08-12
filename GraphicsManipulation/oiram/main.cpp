@@ -134,7 +134,7 @@ int main() {
   SetTargetFPS(60);
 
   Texture2D player_idle_texture =
-      LoadTexture("assets/heros/herochar_idle_anim_strip_4.png");
+      LoadTexture("assets/herochar_idle_anim_strip_4.png");
   Texture2D tiles_texture = LoadTexture("assets/brickmario.png");
   Texture2D luckyblocktexture = LoadTexture("assets/luckyblock.png");
 
