@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int SumOfDigits(int n) {
-  int i = n / 100;
-  int j = (n - i * 100) / 10;
-  int k = (n - i * 100 - j * 10) / 1;
-  return i + j + k;
+  int sum = 0;
+  while (n != 0) {
+    sum += n % 10;
+    n /= 10;
+  }
+  return sum;
 }
 
 int main() {
